@@ -8,6 +8,32 @@
 }
 
 /* Mobile first */
+h2 
+{  
+  align-content: center;
+  margin: 10px  25%;
+  color: darkorange;
+  text-align: center;
+}
+
+#output
+{
+  width: 50%;
+  margin: 10px  25%;
+  display: flex;
+ 
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px darkorange dotted;
+}
+
+.results 
+{
+  color: red;
+  font-size: 2em;
+}
+
 .wrapper {
   min-height: 100vh;
   min-width: calc(100vw - (100vw - 100%));

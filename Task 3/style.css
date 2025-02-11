@@ -8,6 +8,37 @@
 }
 
 /* Mobile first */
+#output
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.userCard
+{
+  box-shadow: 0 4px 8px 0 orange;
+  transition: 0.3s;
+  width: 40%;
+
+   > .infoDiv 
+  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+    background-color: lightgrey;
+    padding: 2px 16px;
+  }
+}
+
+.userCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
 .wrapper {
   min-height: 100vh;
   min-width: calc(100vw - (100vw - 100%));
